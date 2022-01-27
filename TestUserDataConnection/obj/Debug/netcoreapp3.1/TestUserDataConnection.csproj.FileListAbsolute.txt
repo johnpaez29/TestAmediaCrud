@@ -1,0 +1,13 @@
+C:\Users\john.paez\source\repos\TestUserDataConnection\bin\Debug\netcoreapp3.1\TestUserDataConnection.deps.json
+C:\Users\john.paez\source\repos\TestUserDataConnection\bin\Debug\netcoreapp3.1\TestUserDataConnection.runtimeconfig.json
+C:\Users\john.paez\source\repos\TestUserDataConnection\bin\Debug\netcoreapp3.1\TestUserDataConnection.runtimeconfig.dev.json
+C:\Users\john.paez\source\repos\TestUserDataConnection\bin\Debug\netcoreapp3.1\TestUserDataConnection.dll
+C:\Users\john.paez\source\repos\TestUserDataConnection\bin\Debug\netcoreapp3.1\TestUserDataConnection.pdb
+C:\Users\john.paez\source\repos\TestUserDataConnection\obj\Debug\netcoreapp3.1\TestUserDataConnection.csproj.AssemblyReference.cache
+C:\Users\john.paez\source\repos\TestUserDataConnection\obj\Debug\netcoreapp3.1\TestUserDataConnection.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\john.paez\source\repos\TestUserDataConnection\obj\Debug\netcoreapp3.1\TestUserDataConnection.AssemblyInfoInputs.cache
+C:\Users\john.paez\source\repos\TestUserDataConnection\obj\Debug\netcoreapp3.1\TestUserDataConnection.AssemblyInfo.cs
+C:\Users\john.paez\source\repos\TestUserDataConnection\obj\Debug\netcoreapp3.1\TestUserDataConnection.csproj.CoreCompileInputs.cache
+C:\Users\john.paez\source\repos\TestUserDataConnection\obj\Debug\netcoreapp3.1\TestUserDataConnection.dll
+C:\Users\john.paez\source\repos\TestUserDataConnection\obj\Debug\netcoreapp3.1\TestUserDataConnection.pdb
+C:\Users\john.paez\source\repos\TestUserDataConnection\obj\Debug\netcoreapp3.1\TestUserDataConnection.genruntimeconfig.cache

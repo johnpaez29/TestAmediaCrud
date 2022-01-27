@@ -1,0 +1,13 @@
+C:\Users\john.paez\source\repos\TestUserBusiness\bin\Debug\netcoreapp3.1\TestUserBusiness.deps.json
+C:\Users\john.paez\source\repos\TestUserBusiness\bin\Debug\netcoreapp3.1\TestUserBusiness.dll
+C:\Users\john.paez\source\repos\TestUserBusiness\bin\Debug\netcoreapp3.1\TestUserBusiness.pdb
+C:\Users\john.paez\source\repos\TestUserBusiness\obj\Debug\netcoreapp3.1\TestUserBusiness.csproj.AssemblyReference.cache
+C:\Users\john.paez\source\repos\TestUserBusiness\obj\Debug\netcoreapp3.1\TestUserBusiness.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\john.paez\source\repos\TestUserBusiness\obj\Debug\netcoreapp3.1\TestUserBusiness.AssemblyInfoInputs.cache
+C:\Users\john.paez\source\repos\TestUserBusiness\obj\Debug\netcoreapp3.1\TestUserBusiness.AssemblyInfo.cs
+C:\Users\john.paez\source\repos\TestUserBusiness\obj\Debug\netcoreapp3.1\TestUserBusiness.csproj.CoreCompileInputs.cache
+C:\Users\john.paez\source\repos\TestUserBusiness\obj\Debug\netcoreapp3.1\TestUserBusiness.dll
+C:\Users\john.paez\source\repos\TestUserBusiness\obj\Debug\netcoreapp3.1\TestUserBusiness.pdb
+C:\Users\john.paez\source\repos\TestUserBusiness\bin\Debug\netcoreapp3.1\TestUserDataConnection.dll
+C:\Users\john.paez\source\repos\TestUserBusiness\bin\Debug\netcoreapp3.1\TestUserDataConnection.pdb
+C:\Users\john.paez\source\repos\TestUserBusiness\obj\Debug\netcoreapp3.1\TestUserBusiness.csproj.CopyComplete

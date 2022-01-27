@@ -1,0 +1,52 @@
+﻿@model IEnumerable<UserModel>
+@{
+    ViewData["Title"] = "Usuarios";
+}
+
+@if (TempData[UserConst.Message] != null)
+{
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+        @TempData[UserConst.Message]
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+}
+<h1>Usuarios</h1>
+<div class="container">
+    <div class="row">
+        <a class="btn btn-info" asp-action="Insert" asp-controller="User">Agregar Usuario</a>
+    </div>
+
+    @if (Model?.Any() ?? false)
+    {
+        <table class="table table-borderless">
+            <thead>
+                <tr>
+                    <th>@Html.DisplayNameFor(model => model.UserName)</th>
+                    <th>@Html.DisplayNameFor(model => model.IdUserType)</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (UserModel empleado in Model)
+                {
+                    <tr>
+                        <td>@empleado.UserName</td>
+                        <td>@empleado.IdUserType</td>
+                        <th>
+                            <a asp-action="Edit" asp-controller="User">Editar</a>
+                            <a asp-action="Delete" asp-controller="User">Borrar</a>
+                        </th>
+                    </tr>
+                }
+
+            </tbody>
+        </table>
+    }
+    else
+    {
+        <p>No se encontraron registros</p>
+    }
+</div>
+

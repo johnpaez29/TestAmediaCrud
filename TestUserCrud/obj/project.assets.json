@@ -1,0 +1,103 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "TestUserBusiness/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "TestUserDataConnection": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/TestUserBusiness.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TestUserBusiness.dll": {}
+        }
+      },
+      "TestUserDataConnection/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/TestUserDataConnection.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TestUserDataConnection.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TestUserBusiness/1.0.0": {
+      "type": "project",
+      "path": "../TestUserBusiness/TestUserBusiness.csproj",
+      "msbuildProject": "../TestUserBusiness/TestUserBusiness.csproj"
+    },
+    "TestUserDataConnection/1.0.0": {
+      "type": "project",
+      "path": "../TestUserDataConnection/TestUserDataConnection.csproj",
+      "msbuildProject": "../TestUserDataConnection/TestUserDataConnection.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "TestUserBusiness >= 1.0.0",
+      "TestUserDataConnection >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\johnp\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\johnp\\Downloads\\TestAmediaFinal\\TestUserCrud\\TestUserCrud.csproj",
+      "projectName": "TestUserCrud",
+      "projectPath": "C:\\Users\\johnp\\Downloads\\TestAmediaFinal\\TestUserCrud\\TestUserCrud.csproj",
+      "packagesPath": "C:\\Users\\johnp\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\johnp\\Downloads\\TestAmediaFinal\\TestUserCrud\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\johnp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {
+            "C:\\Users\\johnp\\Downloads\\TestAmediaFinal\\TestUserBusiness\\TestUserBusiness.csproj": {
+              "projectPath": "C:\\Users\\johnp\\Downloads\\TestAmediaFinal\\TestUserBusiness\\TestUserBusiness.csproj"
+            },
+            "C:\\Users\\johnp\\Downloads\\TestAmediaFinal\\TestUserDataConnection\\TestUserDataConnection.csproj": {
+              "projectPath": "C:\\Users\\johnp\\Downloads\\TestAmediaFinal\\TestUserDataConnection\\TestUserDataConnection.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "imports": [
+          "net461"
+        ],
+        "assetTargetFallback": true,
+        "warn": true
+      }
+    }
+  }
+}
